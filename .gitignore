@@ -78,8 +78,11 @@ pytestdebug.log
 *.mo
 *.pot
 
+<<<<<<< HEAD
 debug/
 
+=======
+>>>>>>> 4301b04634e4ff64adf6b4c0f3372a1acfee4117
 # Django stuff:
 *.log
 local_settings.py
@@ -179,5 +182,8 @@ Thumbs.db
 
 go.work
 go.work.sum
+<<<<<<< HEAD
 
 test_html/
+=======
+>>>>>>> 4301b04634e4ff64adf6b4c0f3372a1acfee4117
