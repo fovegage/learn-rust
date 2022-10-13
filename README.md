@@ -25,6 +25,11 @@ https://crates.io/
 # error: linker `link.exe` not found
 rustup toolchain install stable-x86_64-pc-windows-gnu
 rustup default stable-x86_64-pc-windows-gnu # 设置默认toolchain
+
+# 编译 https://cygwin.com/install.html
+# https://www.cnblogs.com/JasonCeng/p/15509131.html
+# windows 需要安装 gcc.exe 进行编译 (安装完需要重启一下编译器)
+.\setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
 ```
 
 ## 命令
