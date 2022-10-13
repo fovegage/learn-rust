@@ -1,11 +1,15 @@
 ## 基础
 
 ```
+# 包
 cargo new demo # 新建项目
 cargo new demo --lib # 新建 dll 项目
 cargo install playwright # 安装包
 cargo run # 运行
 cargo build # 打包
+
+# 文件
+rustc *.rs # 编译二进制，编译好运行
 
 -------------------------------
 # 依赖放入dependencies会自动下载
