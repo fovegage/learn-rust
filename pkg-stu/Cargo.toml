@@ -1,5 +1,5 @@
 [package]
-name = "pkg_stu"
+name = "pkg-stu"
 version = "0.1.0"
 edition = "2021"
 
