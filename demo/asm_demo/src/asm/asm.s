@@ -1,4 +1,4 @@
-.text
+.text ;
 ;.code64
 
 .global nop_func

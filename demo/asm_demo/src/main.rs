@@ -1,7 +1,9 @@
-extern crate asm_demo;
 
-use asm_demo::asm::{test_add, nop_func};
+extern crate test_asm;
+
+use test_asm::asm::{test_add, nop_func};
 
 fn main() {
-    unsafe { nop_func() };
+    // unsafe { nop_func() };
+    println!("Hello World!");
 }
