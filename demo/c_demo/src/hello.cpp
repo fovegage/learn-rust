@@ -4,8 +4,16 @@
 
 // src/hello.c
 
-#include <stdio.h>
+//#include <stdio.h>
+//
+//void hello() {
+//    printf("Hello, World!\n");
+//}
 
-void hello() {
-    printf("Hello, World!\n");
+extern "C" {
+int multiply(int x, int y);
+}
+
+int multiply(int x, int y) {
+    return x*y;
 }

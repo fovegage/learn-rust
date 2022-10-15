@@ -2,8 +2,10 @@
 
 fn main() {
     cc::Build::new()
+        .cpp(true)
         .file("src/hello.cpp")
-        .static_flag(true)
+        // .static_flag(true)
+        // .out_dir("./")
         .compile("hello");
     // println!("cargo:rustc-link-search=native={}", out_dir);
     println!("cargo:rustc-link-lib=static=hello");
