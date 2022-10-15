@@ -1,5 +1,5 @@
 #[link(name = "test_asm", kind = "static")] // 定义链接名称，使用的是静态链接方式
-extern "C" {
+extern  {
     // target_env = "gnu"
     // cfg配置汇编
     #[cfg(link_name = "nop_func")]
