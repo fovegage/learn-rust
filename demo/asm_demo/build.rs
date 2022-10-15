@@ -24,6 +24,6 @@ fn main() {
         // .static_flag(true) // 设置-static 编译参数
         // .shared_flag(false) // 不设置-shared 编译参数
         // .out_dir("")
-        .compile("test_asm"); // 指定编译的名称test_asm，该名称必须要与#[link(name = "test_asm", kind = "static")]中的name一致
+        .compile("asm"); // 指定编译的名称test_asm，该名称必须要与#[link(name = "test_asm", kind = "static")]中的name一致
     // println!("cargo:rustc-link-lib=static=test_asm");
 }

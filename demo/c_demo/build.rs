@@ -8,8 +8,8 @@ fn main() {
         // .out_dir("./")
         .compile("hello");
     // println!("cargo:rustc-link-search=native={}", out_dir);
-    println!("cargo:rustc-link-lib=static=hello");
-    println!("cargo:rerun-if-changed=src/hello.cpp");
+    // println!("cargo:rustc-link-lib=static=hello");
+    // println!("cargo:rerun-if-changed=src/hello.cpp");
 }
 
 
