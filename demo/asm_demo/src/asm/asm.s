@@ -1,8 +1,6 @@
-.text ;
-;.code64
-
-.global nop_func
+.global test_p_add
 .p2align 4
-nop_func:
-    nop
-    ret
+test_p_add:
+    mov (%rdi),%eax
+    add (%rsi),%eax
+    retq

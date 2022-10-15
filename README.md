@@ -19,6 +19,16 @@ playwright = "*
 https://crates.io/
 ```
 
+## 注意
+
+```
+# 需要注意的是 rust 项目不要使用中划线，必须使用下划线
+lib.rs 一般将main.rs 中引用提前导出
+mod.rs 导入
+
+关系链：lib.js(mod)--->mod.js(crate)
+```
+
 ## windows
 
 ```
@@ -42,11 +52,13 @@ cargo --version
 
 brew install rustup-init
 brew cleanup rustup-init
-rustup-init 会生产 rust-up
+rustup-init 会生成 rust-up
 rustup
 
-## 主要命令
-rustc --version、cargo --version、rustup --version
+## 主要命令（安装成功后会有这三个命令）
+rustc --version # 代码编译
+cargo --version # 项目管理
+rustup --version # 交叉编译
 ```
 
 ## 概念
@@ -54,15 +66,16 @@ rustc --version、cargo --version、rustup --version
 ```
 Cargo 是 Rust 的构建系统和包管理器。
 rustc是 Rust 编程语言的编译器(http://llever.com/rustc-zh/)
-rust-gdb     
-rust-gdbgui  
-rust-lldb    
+rust-gdb # 调试用    
+rust-gdbgui  # 调试gui
+rust-lldb   # 调试用
 rustc  # 编译器  可以直接使用cargo build 
-rustdoc 
+rustdoc  # rust文档
 rust-src rust标准库
 rustup 交叉编译
 clippy 优化代码用
-
+crate Rust在编译时最小的代码单位
+objdump 反汇编命令
 ```
 
 ## 资料
