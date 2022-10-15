@@ -11,7 +11,7 @@ extern "C" {
 }
 
 // 如何将其导出去
-extern "C" {
-    #[link_name = "abs"]
-    fn abs_in_rust(input: i32) -> i32;
-}
+// extern "C" {
+//     #[link_name = "abs"]
+//     fn abs_in_rust(input: i32) -> i32;
+// }

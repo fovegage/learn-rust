@@ -1,11 +1,12 @@
-use std::arch::asm;
+// use std::arch::asm;
 
-extern crate test_asm;
+// extern crate test_asm;
 
-use test_asm::asm::{test_add, nop_func};
+// use test_asm::asm::{test_add, nop_func};
 
 fn main() {
-    unsafe { nop_func() };
+    // unsafe { nop_func() };
+    println!("hello")
 }
 
 /////////////////////// 运行 c 无问题
