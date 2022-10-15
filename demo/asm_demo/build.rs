@@ -19,7 +19,7 @@ fn main() {
 
         // .no_default_flags(true) // 不使用默认的编译参数
         // .files(&entry) // 传递寻找的汇编文件
-        .file("src/asm/asm.s")
+        .file("src/asm.s")
         // .pic(true) // 配置编译器是否将发出调试信息,默认为false
         // .static_flag(true) // 设置-static 编译参数
         // .shared_flag(false) // 不设置-shared 编译参数

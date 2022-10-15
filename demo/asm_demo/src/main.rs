@@ -10,6 +10,7 @@ extern "C" {
     // target_env = "gnu"，target_env表示使用gun环境如果不添加则会出现
     // unresolved import `asm_rust::asm::nop_func`
     // 这段代码只能在linux中使用
+    #[cfg(link_name = "nop_func")]
     pub fn nop_func();
 }
 
