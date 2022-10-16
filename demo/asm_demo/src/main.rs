@@ -14,7 +14,6 @@
 //     fn nop_func();
 // }
 
-
 use std::arch::asm;
 
 fn main() {
