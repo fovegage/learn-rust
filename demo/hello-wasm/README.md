@@ -17,3 +17,11 @@ npm publish --access=public
 # wasm加密
 https://cloud.tencent.com/developer/article/1899766
 ```
+
+```
+# go assembly
+https://github.com/golang/go/wiki/WebAssembly#getting-started
+
+# webassembly 文档
+http://webassembly.org.cn/community/feedback/
+```

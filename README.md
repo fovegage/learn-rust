@@ -85,6 +85,11 @@ objdump 反汇编命令
 - [Rust Crates 实践指南](https://mirrors.gitcode.host/zzy/rust-crate-guide)
 - [Rust 基础](https://learnku.com/rust/wikis/29018)
 - [Rust 参考手册](https://rustwiki.org/zh-CN/reference/names/preludes.html)
+- [Rust语言圣经(Rust)](https://course.rs/about-book.html)
+- [Rust 程序设计语言（第一版） 简体中文版](http://shouce.jb51.net/rust-book-chinese/)
+- [英文文档](https://doc.rust-lang.org/reference/conditional-compilation.html#target_env)
+- [Rust 程序设计语言 简体中文版](https://kaisery.github.io/trpl-zh-cn/ch07-01-packages-and-crates.html)
+- [Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_12/simple-rust-in-assembly.html)
 
 ### Rust浏览器
 
