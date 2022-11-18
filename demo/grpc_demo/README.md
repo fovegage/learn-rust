@@ -20,4 +20,9 @@ cargo new grpc-demo
 cargo build
 # 运行项目
 cargo run
+
+# 运行客户端
+cargo run --bin client
+# 运行服务端
+cargo run --bin server
 ```
