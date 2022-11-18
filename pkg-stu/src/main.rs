@@ -1,4 +1,3 @@
-
 use playwright::Playwright;
 
 #[tokio::main]
@@ -17,3 +16,11 @@ async fn main() -> Result<(), playwright::Error> {
     page.click_builder("a").click().await?;
     Ok(())
 }
+
+// use webbrowser;
+//
+// fn main() {
+//     if webbrowser::open("https://www.revolve.com/r/ajax/GetProductData.jsp?product%5B%5D=LSPA-WD148").is_ok() {
+//
+//     }
+// }
